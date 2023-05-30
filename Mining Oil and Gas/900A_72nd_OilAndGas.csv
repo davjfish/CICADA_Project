@@ -1,0 +1,276 @@
+,PRODUCT_E,PRODUCT_F,MINESITE_E,MINESITE_F,PROVINCE_E,PROVINCE_F,LATITUDE,LONGITUDE,PRV_WSHD_I,NHN_TWS_ID,Longitude,Latitude
+1,Oil,Pétrole,North Amethyst,North Amethyst,Newfoundland and Labrador,Terre-Neuve-et-Labrador,46.7667,-48.0333,NA,NA,-48.0333,46.7667
+2,Oil,Pétrole,White Rose,White Rose,Newfoundland and Labrador,Terre-Neuve-et-Labrador,46.85,-48.1,NA,NA,-48.1,46.85
+3,Oil,Pétrole,Terra Nova,Terra Nova,Newfoundland and Labrador,Terre-Neuve-et-Labrador,46.4833,-48.4667,NA,NA,-48.4667,46.4833
+4,Oil,Pétrole,Hebron,Hebron,Newfoundland and Labrador,Terre-Neuve-et-Labrador,46.503,-48.478,NA,NA,-48.478,46.503
+5,Oil,Pétrole,Hibernia,Hibernia,Newfoundland and Labrador,Terre-Neuve-et-Labrador,46.7583,-48.7833,NA,NA,-48.7833,46.7583
+6,"Oil, gas","Pétrole, gaz",Stony Creek,Stony Creek,New Brunswick,Nouveau-Brunswick,46,-64.8,NA,01BU,-64.8,46
+7,Gas,Gaz,McCully,McCully,New Brunswick,Nouveau-Brunswick,45.5,-65.3833,NA,01BV,-65.3833,45.5
+8,Gas,Gaz,Haldimand,Haldimand,Ontario,Ontario,42.96,-79.78,ON-02HA-02,02HA,-79.78,42.96
+9,Gas,Gaz,Norfolk,Norfolk,Ontario,Ontario,42.71,-80.49,ON-02GC-03,02GC,-80.49,42.71
+10,Oil,Pétrole,Gobles,Gobles,Ontario,Ontario,43.14,-80.58,ON-02GB-04,02GB,-80.58,43.14
+11,Gas,Gaz,Clear Creek,Clear Creek,Ontario,Ontario,42.46,-80.62,NA,207,-80.62,42.46
+12,Gas,Gaz,Silver Creek,Silver Creek,Ontario,Ontario,42.38,-80.85,NA,207,-80.85,42.38
+13,Oil,Pétrole,Willey,Willey,Ontario,Ontario,42.73,-81.51,ON-02GE-05,02GE,-81.51,42.73
+14,Oil,Pétrole,Clearville,Clearville,Ontario,Ontario,42.47,-81.68,NA,207,-81.68,42.47
+15,Oil,Pétrole,Rodney,Rodney,Ontario,Ontario,42.54,-81.69,NA,02GF,-81.69,42.54
+16,Oil,Pétrole,Petrolia,Petrolia,Ontario,Ontario,42.87,-82.18,ON-02GGB06,02GG,-82.18,42.87
+17,Gas,Gaz,Rosedale,Rosedale,Ontario,Ontario,42.78,-82.19,ON-02GGB07,02GG,-82.19,42.78
+18,Gas,Gaz,Tilbury,Tilbury,Ontario,Ontario,42.18,-82.23,NA,207,-82.23,42.18
+19,Oil,Pétrole,Ladysmith,Ladysmith,Ontario,Ontario,42.8,-82.36,ON-02GGB06,02GG,-82.36,42.8
+20,"Oil, gas","Pétrole, gaz",Becher,Becher,Ontario,Ontario,42.62,-82.46,ON-02GGB01,02GG,-82.46,42.62
+21,Oil,Pétrole,Whitewater,Whitewater,Manitoba,Manitoba,49.1661,-100.2,NA,05NG,-100.2,49.1661
+22,Oil,Pétrole,Waskada,Waskada,Manitoba,Manitoba,49.08,-101.15,NA,05NF,-101.15,49.08
+23,Oil,Pétrole,Virden,Virden,Manitoba,Manitoba,49.9,-101.19,NA,05MG,-101.19,49.9
+24,Oil,Pétrole,Daly/Sinclair,Daly/Sinclair,Manitoba,Manitoba,49.78,-101.3,NA,05NG,-101.3,49.78
+25,Oil,Pétrole,Pierson,Pierson,Manitoba,Manitoba,49.15,-101.34,NA,05NF,-101.34,49.15
+26,Oil,Pétrole,Kirkella,Kirkella,Manitoba,Manitoba,50.0025,-101.38611,NA,05MG,-101.38611,50.0025
+27,Oil,Pétrole,Hastings,Hastings,Saskatchewan,Saskatchewan,49.27074,-101.95853,NA,05NF,-101.95853,49.27074
+28,Oil,Pétrole,Parkman,Parkman,Saskatchewan,Saskatchewan,49.78,-101.96,NA,05NF,-101.96,49.78
+29,Oil,Pétrole,Willmar,Willmar,Saskatchewan,Saskatchewan,49.4307,-102.3012,NA,05ND,-102.3012,49.4307
+30,Oil,Pétrole,Pinto,Pinto,Saskatchewan,Saskatchewan,49.1015513,-102.304925,NA,05ND,-102.304925,49.1015513
+31,Oil,Pétrole,Steelman,Steelman,Saskatchewan,Saskatchewan,49.28,-102.64,NA,05ND,-102.64,49.28
+32,Oil,Pétrole,Midale,Midale,Saskatchewan,Saskatchewan,49.47,-103.34,NA,05NB,-103.34,49.47
+33,Oil,Pétrole,Viewfield,Viewfield,Saskatchewan,Saskatchewan,49.5169328,-103.3993216,NA,05ND,-103.3993216,49.5169328
+34,Oil,Pétrole,Torquay Main,Torquay Main,Saskatchewan,Saskatchewan,49.0303044,-103.4105069,NA,05NA,-103.4105069,49.0303044
+35,Oil,Pétrole,Macoun,Macoun,Saskatchewan,Saskatchewan,49.3053297,-103.6190727,NA,05NB,-103.6190727,49.3053297
+36,Oil,Pétrole,Weyburn,Weyburn,Saskatchewan,Saskatchewan,49.4,-103.78,NA,05NB,-103.78,49.4
+37,Oil,Pétrole,Lougheed,Lougheed,Saskatchewan,Saskatchewan,49.4996266,-103.8759319,NA,05NB,-103.8759319,49.4996266
+38,Oil,Pétrole,Freda Lake,Freda Lake,Saskatchewan,Saskatchewan,49.3458295,-104.4484205,NA,05NA,-104.4484205,49.3458295
+39,Oil,Pétrole,Cantuar,Cantuar,Saskatchewan,Saskatchewan,50.32,-108.24,NA,05HC,-108.24,50.32
+40,Oil,Pétrole,Cantuar Main,Cantuar Main,Saskatchewan,Saskatchewan,50.33632,-108.2481,NA,05HC,-108.2481,50.33632
+41,Oil,Pétrole,Battrum,Battrum,Saskatchewan,Saskatchewan,50.55,-108.29,NA,05HC,-108.29,50.55
+42,Oil,Pétrole,Gull Lake North,Gull Lake North,Saskatchewan,Saskatchewan,50.111144,-108.4800038,NA,05HA,-108.4800038,50.111144
+43,Oil,Pétrole,Suffield West,Suffield West,Saskatchewan,Saskatchewan,50.1593932,-108.5222501,NA,05HA,-108.5222501,50.1593932
+44,Oil,Pétrole,Leon Lake,Leon Lake,Saskatchewan,Saskatchewan,49.640865,-108.5426306,NA,05HD,-108.5426306,49.640865
+45,Oil,Pétrole,Leitchville,Leitchville,Saskatchewan,Saskatchewan,49.7268155,-108.5470845,NA,05HD,-108.5470845,49.7268155
+46,Oil,Pétrole,Rapdan,Rapdan,Saskatchewan,Saskatchewan,49.2494796,-108.5916931,NA,11AD,-108.5916931,49.2494796
+47,Oil,Pétrole,Rapdan South,Rapdan South,Saskatchewan,Saskatchewan,49.2494796,-108.5916931,NA,11AD,-108.5916931,49.2494796
+48,Oil,Pétrole,Dollard,Dollard,Saskatchewan,Saskatchewan,49.56547,-108.61556,NA,05HD,-108.61556,49.56547
+49,Oil,Pétrole,Edam East,Edam East,Saskatchewan,Saskatchewan,53.1062309,-108.6559043,NA,05EG,-108.6559043,53.1062309
+50,Oil,Pétrole,Plato North,Plato North,Saskatchewan,Saskatchewan,51.2672492,-108.707604,NA,05HC,-108.707604,51.2672492
+51,Oil,Pétrole,Edam West,Edam West,Saskatchewan,Saskatchewan,53.2001149,-108.7334903,NA,05EG,-108.7334903,53.2001149
+52,Oil,Pétrole,Edam South G.P.,Edam South G.P.,Saskatchewan,Saskatchewan,53.1261185,-108.8032924,NA,05EG,-108.8032924,53.1261185
+53,Oil,Pétrole,Dodsland,Dodsland,Saskatchewan,Saskatchewan,51.7,-108.92,NA,05GB,-108.92,51.7
+54,Oil,Pétrole,Rush Lake,Rush Lake,Saskatchewan,Saskatchewan,53.1219,-109.0411,NA,05EG,-109.0411,53.1219
+55,Oil,Pétrole,Avon Hill,Avon Hill,Saskatchewan,Saskatchewan,51.57861,-109.06558,NA,05GB,-109.06558,51.57861
+56,Oil,Pétrole,Westhazel,Westhazel,Saskatchewan,Saskatchewan,53.3444266,-109.2247629,NA,05EF,-109.2247629,53.3444266
+57,Oil,Pétrole,Kerrobert,Kerrobert,Saskatchewan,Saskatchewan,51.8147554,-109.2656806,NA,05GB,-109.2656806,51.8147554
+58,Oil,Pétrole,Celtic,Celtic,Saskatchewan,Saskatchewan,53.44,-109.29,NA,05EF,-109.29,53.44
+59,Oil,Pétrole,Bolney,Bolney,Saskatchewan,Saskatchewan,53.53931,-109.35563,NA,05EF,-109.35563,53.53931
+60,Oil,Pétrole,Whiteside,Whiteside,Saskatchewan,Saskatchewan,51.5858767,-109.359728,NA,05GB,-109.359728,51.5858767
+61,Oil,Pétrole,Lashburn East,Lashburn East,Saskatchewan,Saskatchewan,53.2316335,-109.3803484,NA,05EF,-109.3803484,53.2316335
+62,Oil,Pétrole,Lashburn,Lashburn,Saskatchewan,Saskatchewan,53.195,-109.4161,NA,05EG,-109.4161,53.195
+63,Oil,Pétrole,Soda Lake,Soda Lake,Saskatchewan,Saskatchewan,53.0419316,-109.4174817,NA,05FF,-109.4174817,53.0419316
+64,Oil,Pétrole,Pikes Peak,Pikes Peak,Saskatchewan,Saskatchewan,53.26047,-109.45019,NA,05EF,-109.45019,53.26047
+65,Oil,Pétrole,Sandall,Sandall,Saskatchewan,Saskatchewan,53.3982151,-109.453654,NA,05EF,-109.453654,53.3982151
+66,Oil,Pétrole,Gully Lake,Gully Lake,Saskatchewan,Saskatchewan,53.2468954,-109.5196396,NA,05EF,-109.5196396,53.2468954
+67,"Oil, gas","Pétrole, gaz",Tangleflags North,Tangleflags North,Saskatchewan,Saskatchewan,53.34,-109.56,NA,05EF,-109.56,53.34
+68,Gas,Gaz,Winter,Winter,Saskatchewan,Saskatchewan,52.655,-109.5619,NA,05GA,-109.5619,52.655
+69,Oil,Pétrole,Laporte,Laporte,Saskatchewan,Saskatchewan,51.262909,-109.6172347,NA,05HB,-109.6172347,51.262909
+70,Oil,Pétrole,Onion Lake North,Onion Lake North,Saskatchewan,Saskatchewan,53.8104726,-109.9789567,NA,05EF,-109.9789567,53.8104726
+71,Oil,Pétrole,Cactus Lake,Cactus Lake,Saskatchewan,Saskatchewan,52.09,-109.99,NA,05GA,-109.99,52.09
+72,"Oil, gas","Pétrole, gaz",Chauvin South,Chauvin South,Alberta,Alberta,52.498,-110.019,AB-07010109,05GA,-110.019,52.498
+73,Oil,Pétrole,Hayter,Hayter,Alberta,Alberta,52.498,-110.019,AB-07010109,05GA,-110.019,52.498
+74,"Oil, gas","Pétrole, gaz",Lloydminster,Lloydminster,Alberta,Alberta,53.409,-110.088,AB-11040302,05EF,-110.088,53.409
+75,"Oil, gas","Pétrole, gaz",Atlee Buffalo,Atlee Buffalo,Alberta,Alberta,50.7232,-110.3885,AB-08030401,05CK,-110.3885,50.7232
+76,Bitumen,Bitume,Tucker Lake,Tucker Lake,Alberta,Alberta,54.59953,-110.49425,AB-12020103,06AC,-110.49425,54.59953
+77,Bitumen,Bitume,Foster Creek,Foster Creek,Alberta,Alberta,55.0667,-110.5167,AB-12010202,06AB,-110.5167,55.0667
+78,Bitumen,Bitume,Primrose,Primrose,Alberta,Alberta,54.8,-110.5667,AB-12010203,06AB,-110.5667,54.8
+79,"Oil, gas","Pétrole, gaz",Medicine Hat,Medicine Hat,Alberta,Alberta,50.084,-110.623,AB-04030301,05AK,-110.623,50.084
+80,"Oil, gas","Pétrole, gaz",Wildmere,Wildmere,Alberta,Alberta,53.104,-110.699,AB-09030101,05FE,-110.699,53.104
+81,Bitumen,Bitume,Wolf Lake,Wolf Lake,Alberta,Alberta,54.6667,-110.7167,AB-12010203,06AB,-110.7167,54.6667
+82,"Oil, gas","Pétrole, gaz",Wainwright,Wainwright,Alberta,Alberta,52.844,-110.733,AB-09030201,05FD,-110.733,52.844
+83,"Oil, gas","Pétrole, gaz",Homeglen-Rimbey,Homeglen-Rimbey,Alberta,Alberta,52.844,-110.733,AB-09030201,05FD,-110.733,52.844
+84,Bitumen,Bitume,Cold Lake/Mahkeses,Cold Lake/Mahkeses,Alberta,Alberta,54.6,-110.7667,AB-12010203,06AB,-110.7667,54.6
+85,"Oil, gas","Pétrole, gaz",Swimming,Swimming,Alberta,Alberta,53.417,-110.8172,AB-11040204,05EE,-110.8172,53.417
+86,Bitumen,Bitume,Christina Lake,Christina Lake,Alberta,Alberta,55.5833,-110.8667,AB-17060104,07CE,-110.8667,55.5833
+87,Bitumen,Bitume,Jackfish,Jackfish,Alberta,Alberta,55.54117,-110.87018,AB-17060104,07CE,-110.87018,55.54117
+88,Bitumen,Bitume,Firebag,Firebag,Alberta,Alberta,57.22447,-110.88775,AB-17070103,07DA,-110.88775,57.22447
+89,Bitumen,Bitume,Long Lake,Long Lake,Alberta,Alberta,56.39829,-110.89047,AB-17060107,07CE,-110.89047,56.39829
+90,"Gas, oil","Gaz, pétrole",Suffield,Suffield,Alberta,Alberta,50.684,-110.896,AB-04030301,05AK,-110.896,50.684
+91,Bitumen,Bitume,Surmont,Surmont,Alberta,Alberta,56.20956,-110.96471,AB-17060107,07CE,-110.96471,56.20956
+92,"Gas, oil","Gaz, pétrole",Mannville,Mannville,Alberta,Alberta,53.37215,-111.05794,AB-11040201,05EE,-111.05794,53.37215
+93,"Gas, oil","Gaz, pétrole",Jenner,Jenner,Alberta,Alberta,50.706,-111.144,AB-08030201,05CJ,-111.144,50.706
+94,Bitumen,Bitume,Kirby,Kirby,Alberta,Alberta,55.361,-111.215,AB-17050301,07CA,-111.215,55.361
+95,Bitumen,Bitume,Kearl,Kearl,Alberta,Alberta,57.295,-111.246,AB-17070104,07DA,-111.246,57.295
+96,Gas,Gaz,Leismer,Leismer,Alberta,Alberta,55.6371368,-111.2512493,AB-17060104,07CE,-111.2512493,55.6371368
+97,"Gas, oil","Gaz, pétrole",Viking-Kinsella,Viking-Kinsella,Alberta,Alberta,53.07,-111.254,AB-09030102,05FE,-111.254,53.07
+98,"Oil, gas","Pétrole, gaz",Princess,Princess,Alberta,Alberta,50.543,-111.268,AB-04021302,05BN,-111.268,50.543
+99,Gas,Gaz,Limestone,Limestone,Alberta,Alberta,51.7962045,-111.2837994,AB-07010102,05GA,-111.2837994,51.7962045
+100,"Oil, gas, sulphur","Pétrole, gaz, soufre",Provost,Provost,Alberta,Alberta,52.313,-111.344,AB-09030201,05FC,-111.344,52.313
+101,Gas,Gaz,Kirby,Kirby,Alberta,Alberta,55.399,-111.355,AB-17050301,07CA,-111.355,55.399
+102,"Gas, oil","Gaz, pétrole",Cessford,Cessford,Alberta,Alberta,50.939,-111.382,AB-08030303,05CH,-111.382,50.939
+103,Bitumen,Bitume,Fort Hills,Fort Hills,Alberta,Alberta,57.3953,-111.572,AB-17070101,07DA,-111.572,57.3953
+104,Bitumen,Bitume,Aurora,Aurora,Alberta,Alberta,57.034,-111.592,AB-17070102,07DA,-111.592,57.034
+105,Bitumen,Bitume,Horizon,Horizon,Alberta,Alberta,57.31,-111.635,AB-17070101,07DA,-111.635,57.31
+106,"Gas, oil","Gaz, pétrole",Bantry,Bantry,Alberta,Alberta,50.458,-111.675,AB-04021302,05BN,-111.675,50.458
+107,Bitumen,Bitume,Great Divide,Great Divide,Alberta,Alberta,56.11941,-111.8257,AB-17050403,07CC,-111.8257,56.11941
+108,"Oil, gas","Pétrole, gaz",Matziwin,Matziwin,Alberta,Alberta,51.0068,-111.8396,AB-08030201,05CH,-111.8396,51.0068
+109,Bitumen,Bitume,Mackay River,Mackay River,Alberta,Alberta,57.0333,-111.8833,AB-17070202,07DB,-111.8833,57.0333
+110,"Gas, oil","Gaz, pétrole",Alderson,Alderson,Alberta,Alberta,50.291,-111.89,AB-04021301,05BN,-111.89,50.291
+111,"Oil, gas","Pétrole, gaz",Verger,Verger,Alberta,Alberta,50.8357807,-111.9465161,AB-08030202,05CJ,-111.9465161,50.8357807
+112,"Oil, gas","Pétrole, gaz",Enchant,Enchant,Alberta,Alberta,50.164,-111.994,AB-04021301,05BN,-111.994,50.164
+113,"Gas, oil","Gaz, pétrole",Countess,Countess,Alberta,Alberta,50.705,-112.009,AB-08030203,05CJ,-112.009,50.705
+114,"Oil, gas","Pétrole, gaz",Retlaw,Retlaw,Alberta,Alberta,49.7969,-112.0211,AB-04010601,05AG,-112.0211,49.7969
+115,"Oil, gas","Pétrole, gaz",Ferguson,Ferguson,Alberta,Alberta,49.24422,-112.13616,AB-02020101,11AA,-112.13616,49.24422
+116,"Gas, oil","Gaz, pétrole",Wayne-Rosedale,Wayne-Rosedale,Alberta,Alberta,51.333,-112.458,AB-08030101,05CG,-112.458,51.333
+117,"Oil, gas, sulphur","Pétrole, gaz, soufre",Fenn-Big Valley,Fenn-Big Valley,Alberta,Alberta,52.105,-112.774,AB-08020103,05CD,-112.774,52.105
+118,"Gas, oil","Gaz, pétrole",Hussar,Hussar,Alberta,Alberta,51.087,-112.949,AB-04020903,05BM,-112.949,51.087
+119,"Gas, oil","Gaz, pétrole",Redwater,Redwater,Alberta,Alberta,53.893,-112.979,AB-11030202,05EC,-112.979,53.893
+120,"Oil, gas","Pétrole, gaz",Ghost Pine,Ghost Pine,Alberta,Alberta,53.893,-112.979,AB-11030202,05EC,-112.979,53.893
+121,"Oil, gas","Pétrole, gaz",Nevis,Nevis,Alberta,Alberta,51.6216864,-112.9845129,AB-08020101,05CD,-112.9845129,51.6216864
+122,Bitumen,Bitume,Britnell,Britnell,Alberta,Alberta,55.9860641,-113.1411692,AB-17050204,07CB,-113.1411692,55.9860641
+123,"Oil, gas","Pétrole, gaz",Bashaw,Bashaw,Alberta,Alberta,52.60803,-113.14689,AB-09010101,05FA,-113.14689,52.60803
+124,"Oil, gas","Pétrole, gaz",Elnora,Elnora,Alberta,Alberta,51.95163,-113.1641,AB-08020101,05CD,-113.1641,51.95163
+125,Gas,Gaz,Liege,Liege,Alberta,Alberta,57.0334068,-113.2291941,AB-18050204,07JB,-113.2291941,57.0334068
+126,"Oil, gas","Pétrole, gaz",Entice,Entice,Alberta,Alberta,51.2723094,-113.2429774,AB-08020205,05CE,-113.2429774,51.2723094
+127,"Oil, gas","Pétrole, gaz",Mikwan,Mikwan,Alberta,Alberta,52.1812,-113.25098,AB-08020101,05CD,-113.25098,52.1812
+128,"Gas, oil","Gaz, pétrole",Twining,Twining,Alberta,Alberta,51.726,-113.318,AB-08020202,05CE,-113.318,51.726
+129,"Oil, gas","Pétrole, gaz",Herronton,Herronton,Alberta,Alberta,50.7974,-113.34438,AB-04020902,05BM,-113.34438,50.7974
+130,"Oil, gas","Pétrole, gaz",Huxley,Huxley,Alberta,Alberta,51.8455,-113.371,AB-08020202,05CE,-113.371,51.8455
+131,"Oil, gas","Pétrole, gaz",Chigwell,Chigwell,Alberta,Alberta,52.5889,-113.51,AB-09010102,05FA,-113.51,52.5889
+132,"Oil, gas, sulphur","Pétrole, gaz, soufre",Joffre,Joffre,Alberta,Alberta,52.283,-113.572,AB-08020101,05CD,-113.572,52.283
+133,"Oil, gas","Pétrole, gaz",Wimborne,Wimborne,Alberta,Alberta,51.93184,-113.67079,AB-08020203,05CE,-113.67079,51.93184
+134,"Oil, gas, sulphur","Pétrole, gaz, soufre",Leduc-Woodbend,Leduc-Woodbend,Alberta,Alberta,53.434,-113.765,AB-11020201,05DF,-113.765,53.434
+135,"Oil, gas","Pétrole, gaz",Lone Pine Creek,Lone Pine Creek,Alberta,Alberta,51.5847,-113.85722,AB-08020203,05CE,-113.85722,51.5847
+136,"Gas, oil","Gaz, pétrole",Cygnet,Cygnet,Alberta,Alberta,52.3237,-113.9188,AB-08010303,05CC,-113.9188,52.3237
+137,"Oil, gas","Pétrole, gaz",Crossfield East,Crossfield East,Alberta,Alberta,51.494,-113.981,AB-08020205,05CE,-113.981,51.494
+138,"Oil, gas","Pétrole, gaz",Waterton,Waterton,Alberta,Alberta,49.4379815,-114.0040509,AB-04010104,05AA,-114.0040509,49.4379815
+139,"Oil, gas","Pétrole, gaz",Crossfield,Crossfield,Alberta,Alberta,51.1851804,-114.0047178,AB-04020803,05BH,-114.0047178,51.1851804
+140,"Oil, gas, sulphur","Pétrole, gaz, soufre",Turner Valley,Turner Valley,Alberta,Alberta,50.663,-114.281,AB-04021202,05BL,-114.281,50.663
+141,"Gas, oil, sulphur","Gaz, pétrole, soufre",Harmattan East,Harmattan East,Alberta,Alberta,51.777,-114.326,AB-08010203,05CB,-114.326,51.777
+142,"Oil, gas, sulphur","Pétrole, gaz, soufre",Medicine River,Medicine River,Alberta,Alberta,52.372,-114.393,AB-08010302,05CC,-114.393,52.372
+143,"Oil, gas","Pétrole, gaz",Mitsue,Mitsue,Alberta,Alberta,54.952,-114.395,AB-17040303,07BK,-114.395,54.952
+144,"Gas, oil, sulphur","Gaz, pétrole, soufre",Garrington,Garrington,Alberta,Alberta,51.989,-114.397,AB-08010201,05CB,-114.397,51.989
+145,"Gas, oil, sulphur","Gaz, pétrole, soufre",Sylvan Lake,Sylvan Lake,Alberta,Alberta,52.204,-114.437,AB-08010302,05CC,-114.437,52.204
+146,"Oil, gas","Pétrole, gaz",Lochend,Lochend,Alberta,Alberta,51.48158,-114.46212,AB-08010203,05CB,-114.46212,51.48158
+147,"Gas, oil, sulphur","Gaz, pétrole, soufre",Gilby,Gilby,Alberta,Alberta,52.576,-114.537,AB-08010302,05CC,-114.537,52.576
+148,"Oil, gas","Pétrole, gaz",Highvale,Highvale,Alberta,Alberta,53.24334,-114.55003,AB-11020101,05DE,-114.55003,53.24334
+149,"Gas, oil, sulphur","Gaz, pétrole, soufre",Caroline,Caroline,Alberta,Alberta,51.976,-114.682,AB-08010201,05CB,-114.682,51.976
+150,Gas,Gaz,Jumping Pound West,Jumping Pound West,Alberta,Alberta,51.0977658,-114.7023484,AB-04020802,05BH,-114.7023484,51.0977658
+151,Gas,Gaz,Wildcat Hills,Wildcat Hills,Alberta,Alberta,51.2726431,-114.7078553,AB-04020401,05BE,-114.7078553,51.2726431
+152,"Oil, gas","Pétrole, gaz",Moose,Moose,Alberta,Alberta,50.88329,-114.77898,AB-04021001,05BJ,-114.77898,50.88329
+153,"Oil, gas","Pétrole, gaz",Willesden Green,Willesden Green,Alberta,Alberta,52.616,-114.795,AB-11020102,05DE,-114.795,52.616
+154,"Oil, gas, sulphur","Pétrole, gaz, soufre",Pembina,Pembina,Alberta,Alberta,53.024,-114.954,AB-11020101,05DE,-114.954,53.024
+155,"Gas, oil, sulphur","Gaz, pétrole, soufre",Ferrier,Ferrier,Alberta,Alberta,52.54,-115.111,AB-11010201,05DC,-115.111,52.54
+156,"Oil, gas","Pétrole, gaz",Mooney,Mooney,Alberta,Alberta,55.25039,-115.15488,AB-17040201,07BJ,-115.15488,55.25039
+157,"Gas, oil, sulphur","Gaz, pétrole, soufre",Ricinus,Ricinus,Alberta,Alberta,52.117,-115.175,AB-11010302,05DB,-115.175,52.117
+158,Gas,Gaz,Panther River,Panther River,Alberta,Alberta,51.55766,-115.37648,AB-08010102,05CA,-115.37648,51.55766
+159,Oil,Pétrole,Nipisi,Nipisi,Alberta,Alberta,55.999,-115.427,AB-18050104,07JA,-115.427,55.999
+160,"Oil, gas","Pétrole, gaz",Swan Hills,Swan Hills,Alberta,Alberta,55.175,-115.501,AB-17040203,07BJ,-115.501,55.175
+161,"Oil, gas","Pétrole, gaz",Carrot Creek,Carrot Creek,Alberta,Alberta,53.433,-115.558,AB-17030101,07BA,-115.558,53.433
+162,"Oil, gas","Pétrole, gaz",Judy Creek,Judy Creek,Alberta,Alberta,54.558,-115.719,AB-17010603,07AH,-115.719,54.558
+163,"Gas, oil, sulphur","Gaz, pétrole, soufre",Brazeau River,Brazeau River,Alberta,Alberta,52.934,-115.746,AB-11010404,05DD,-115.746,52.934
+164,"Oil, gas, sulphur","Pétrole, gaz, soufre",Virginia Hills,Virginia Hills,Alberta,Alberta,54.582,-115.825,AB-17010603,07AH,-115.825,54.582
+165,"Gas, oil","Gaz, pétrole",Evi,Evi,Alberta,Alberta,56.51018,-115.91763,AB-18010402,07HB,-115.91763,56.51018
+166,"Oil, gas","Pétrole, gaz",Westpem,Westpem,Alberta,Alberta,53.40743,-115.9236,AB-17030102,07BA,-115.9236,53.40743
+167,"Oil, gas","Pétrole, gaz",Peco,Peco,Alberta,Alberta,52.9816,-116.0927,AB-11010404,05DD,-116.0927,52.9816
+168,"Oil, gas","Pétrole, gaz",Stolberg,Stolberg,Alberta,Alberta,52.62964,-116.14096,AB-11010406,05DD,-116.14096,52.62964
+169,"Oil, gas","Pétrole, gaz",Windfall,Windfall,Alberta,Alberta,54.031,-116.189,AB-17010501,07AE,-116.189,54.031
+170,"Oil, gas","Pétrole, gaz",Hanland,Hanland,Alberta,Alberta,52.8451543,-116.3256784,AB-11010401,05DD,-116.3256784,52.8451543
+171,"Oil, gas","Pétrole, gaz",Edson,Edson,Alberta,Alberta,53.587,-116.344,AB-17020203,07AG,-116.344,53.587
+172,"Oil, gas","Pétrole, gaz",Minehead,Minehead,Alberta,Alberta,53.17362,-116.54472,AB-17020102,07AF,-116.54472,53.17362
+173,Gas,Gaz,Bighorn,Bighorn,Alberta,Alberta,52.79805,-116.64363,AB-11010401,05DD,-116.64363,52.79805
+174,"Gas, oil, sulphur","Gaz, pétrole, soufre",Kaybob,Kaybob,Alberta,Alberta,54.493,-116.658,AB-18020702,07GG,-116.658,54.493
+175,"Oil, gas","Pétrole, gaz",Pine Creek,Pine Creek,Alberta,Alberta,53.891983,-116.6801088,AB-17010501,07AE,-116.6801088,53.891983
+176,"Oil, gas","Pétrole, gaz",Fox Creek,Fox Creek,Alberta,Alberta,54.34792,-116.68264,AB-18020702,07GG,-116.68264,54.34792
+177,"Gas, oil, sulphur","Gaz, pétrole, soufre",Kaybob South,Kaybob South,Alberta,Alberta,54.098,-116.711,AB-17010501,07AE,-116.711,54.098
+178,Bitumen,Bitume,Peace River,Peace River,Alberta,Alberta,56.3833,-116.7833,AB-18010401,07HB,-116.7833,56.3833
+179,Bitumen,Bitume,Cadotte,Cadotte,Alberta,Alberta,56.48326,-116.80106,AB-18010401,07HB,-116.80106,56.48326
+180,"Oil, gas","Pétrole, gaz",Ansell,Ansell,Alberta,Alberta,53.3684828,-116.8053698,AB-17020102,07AF,-116.8053698,53.3684828
+181,"Oil, gas","Pétrole, gaz",Basing,Basing,Alberta,Alberta,53.16855,-116.88155,AB-17020102,07AF,-116.88155,53.16855
+182,"Oil, gas","Pétrole, gaz",Sundance,Sundance,Alberta,Alberta,53.6301778,-116.9526615,AB-17020101,07AF,-116.9526615,53.6301778
+183,"Oil, gas, sulphur","Pétrole, gaz, soufre",Sturgeon Lake South,Sturgeon Lake South,Alberta,Alberta,54.94,-117.207,AB-18020701,07GG,-117.207,54.94
+184,"Oil, gas","Pétrole, gaz",Placid,Placid,Alberta,Alberta,54.1158,-117.3636,AB-18020701,07GG,-117.3636,54.1158
+185,Gas,Gaz,Wild River,Wild River,Alberta,Alberta,53.8046446,-117.4235768,AB-17010302,07AC,-117.4235768,53.8046446
+186,"Oil, gas","Pétrole, gaz",Waskahigan,Waskahigan,Alberta,Alberta,54.53379,-117.46125,AB-18020703,07GG,-117.46125,54.53379
+187,"Oil, gas","Pétrole, gaz",Ante Creek North,Ante Creek North,Alberta,Alberta,54.78,-117.6481,AB-18020601,07GF,-117.6481,54.78
+188,"Oil, gas","Pétrole, gaz",Leland,Leland,Alberta,Alberta,54.17015,-117.75606,AB-18020701,07GG,-117.75606,54.17015
+189,"Oil, gas, sulphur","Pétrole, gaz, soufre",Simonette,Simonette,Alberta,Alberta,54.411,-117.93,AB-18020602,07GF,-117.93,54.411
+190,Gas,Gaz,Hotchkiss,Hotchkiss,Alberta,Alberta,57.1817,-118.0123,AB-18030103,07HC,-118.0123,57.1817
+191,"Oil, gas","Pétrole, gaz",Smoky,Smoky,Alberta,Alberta,54.08525,-118.07318,AB-18020701,07GG,-118.07318,54.08525
+192,"Oil, gas","Pétrole, gaz",Karr,Karr,Alberta,Alberta,54.6778248,-118.1546281,AB-18020603,07GF,-118.1546281,54.6778248
+193,"Oil, gas","Pétrole, gaz",Dunvegan,Dunvegan,Alberta,Alberta,55.8122541,-118.160553,AB-18010211,07FD,-118.160553,55.8122541
+194,Gas,Gaz,Resthaven,Resthaven,Alberta,Alberta,54.22615,-118.28623,AB-18020601,07GF,-118.28623,54.22615
+195,"Oil, gas, sulphur","Pétrole, gaz, soufre",Rainbow,Rainbow,Alberta,Alberta,58.65,-118.342,AB-19010203,07OC,-118.342,58.65
+196,"Oil, gas","Pétrole, gaz",Grande Prairie,Grande Prairie,Alberta,Alberta,55.1633,-118.372,AB-18020501,07GE,-118.372,55.1633
+197,"Oil, gas","Pétrole, gaz",Worsley,Worsley,Alberta,Alberta,56.371,-118.396,AB-18010208,07FD,-118.396,56.371
+198,"Oil, gas","Pétrole, gaz",Wapati,Wapati,Alberta,Alberta,54.7650784,-118.7664998,AB-18020502,07GE,-118.7664998,54.7650784
+199,"Oil, gas","Pétrole, gaz",Kakwa,Kakwa,Alberta,Alberta,54.24,-118.87,AB-18020202,07GB,-118.87,54.24
+200,"Oil, gas","Pétrole, gaz",Mirage,Mirage,Alberta,Alberta,55.7739,-118.8925,AB-18010209,07FD,-118.8925,55.7739
+201,Gas,Gaz,Cutbank,Cutbank,Alberta,Alberta,54.75,-119,AB-18020502,07GE,-119,54.75
+202,"Oil, gas","Pétrole, gaz",Wembley,Wembley,Alberta,Alberta,55.193,-119.008,AB-18020503,07GE,-119.008,55.193
+203,"Oil, gas","Pétrole, gaz",La Glace,La Glace,Alberta,Alberta,55.39215,-119.01872,AB-18020503,07GE,-119.01872,55.39215
+204,"Gas, oil, sulphur","Gaz, pétrole, soufre",Valhalla,Valhalla,Alberta,Alberta,55.606,-119.086,AB-18010211,07FD,-119.086,55.606
+205,"Oil, gas","Pétrole, gaz",Cecil,Cecil,Alberta,Alberta,56.3519,-119.245,AB-18010201,07FD,-119.245,56.3519
+206,"Oil, gas","Pétrole, gaz",Progress,Progress,Alberta,Alberta,55.77185,-119.29963,AB-18010207,07FD,-119.29963,55.77185
+207,"Oil, gas, sulphur","Pétrole, gaz, soufre",Rainbow South,Rainbow South,Alberta,Alberta,58.312,-119.363,AB-19010102,07OA,-119.363,58.312
+208,"Oil, gas","Pétrole, gaz",Elmworth,Elmworth,Alberta,Alberta,55.0268626,-119.5292622,AB-18020402,07GD,-119.5292622,55.0268626
+209,"Gas, oil, sulphur","Gaz, pétrole, soufre",Pouce Coupe South,Pouce Coupe South,Alberta,Alberta,55.598,-119.562,AB-18010202,07FD,-119.562,55.598
+210,"Oil, gas","Pétrole, gaz",Gordondale,Gordondale,Alberta,Alberta,55.7741,-119.6292,AB-18010202,07FD,-119.6292,55.7741
+211,"Oil, gas","Pétrole, gaz",Sinclar,Sinclar,Alberta,Alberta,55.4631279,-119.7102406,AB-18020401,07GD,-119.7102406,55.4631279
+212,"Oil, gas","Pétrole, gaz",Narraway,Narraway,Alberta,Alberta,54.47498,-119.72727,AB-18020303,07GC,-119.72727,54.47498
+213,"Oil, gas","Pétrole, gaz",Pouce Coupe,Pouce Coupe,Alberta,Alberta,55.94456,-119.85739,AB-18010201,07FD,-119.85739,55.94456
+214,"Gas, oil","Gaz, pétrole",Boundary Lake South,Boundary Lake South,Alberta,Alberta,56.398,-119.885,AB-18010204,07FD,-119.885,56.398
+215,Gas,Gaz,Bivouac,Bivouac,Alberta,Alberta,58.432,-119.9691,AB-19010104,07OA,-119.9691,58.432
+216,Gas,Gaz,Gutah,Gutah,British Columbia,Colombie-Britannique,57.1688,-120.0094,BC_98,07FC,-120.0094,57.1688
+217,"Oil, gas","Pétrole, gaz",Boundary Lake,Boundary Lake,British Columbia,Colombie-Britannique,56.427,-120.043,BC_117,07FD,-120.043,56.427
+218,Gas,Gaz,Ladyfern,Ladyfern,British Columbia,Colombie-Britannique,57.1667,-120.0667,BC_98,07FC,-120.0667,57.1667
+219,"Oil, gas","Pétrole, gaz",Hay River,Hay River,British Columbia,Colombie-Britannique,58.6261,-120.1019,BC_64,07OA,-120.1019,58.6261
+220,Gas,Gaz,Kelly,Kelly,British Columbia,Colombie-Britannique,55.189,-120.133,BC_188,07GD,-120.133,55.189
+221,Gas,Gaz,Deep Basin,Deep Basin,British Columbia,Colombie-Britannique,55.0011,-120.1511,BC_188,07GD,-120.1511,55.0011
+222,Gas,Gaz,Hiding Creek,Hiding Creek,British Columbia,Colombie-Britannique,54.878,-120.159,BC_188,07GD,-120.159,54.878
+223,"Oil, gas","Pétrole, gaz",Boundary Lake North,Boundary Lake North,British Columbia,Colombie-Britannique,56.6155,-120.1854,BC_98,07FC,-120.1854,56.6155
+224,Gas,Gaz,Ring,Ring,British Columbia,Colombie-Britannique,57.848,-120.236,BC_52,10CA,-120.236,57.848
+225,Gas,Gaz,Heritage,Heritage,British Columbia,Colombie-Britannique,55.6849,-120.3195,BC_117,07FD,-120.3195,55.6849
+226,"Oil, gas","Pétrole, gaz",Doe,Doe,British Columbia,Colombie-Britannique,55.9072,-120.3273,BC_117,07FD,-120.3273,55.9072
+227,"Gas, sulphur","Gaz, soufre",Ojay,Ojay,British Columbia,Colombie-Britannique,54.656,-120.347,BC_188,07GC,-120.347,54.656
+228,Gas,Gaz,Parkland,Parkland,British Columbia,Colombie-Britannique,56.03567,-120.35365,BC_117,07FD,-120.35365,56.03567
+229,Gas,Gaz,Drake,Drake,British Columbia,Colombie-Britannique,57.1361,-120.3961,BC_136,07FC,-120.3961,57.1361
+230,"Oil, gas","Pétrole, gaz",Dahl,Dahl,British Columbia,Colombie-Britannique,57.56894,-120.45425,BC_74,10CA,-120.45425,57.56894
+231,Gas,Gaz,Noel,Noel,British Columbia,Colombie-Britannique,55.23373,-120.49864,BC_82,07FD,-120.49864,55.23373
+232,Gas,Gaz,Sundown,Sundown,British Columbia,Colombie-Britannique,55.53689,-120.6196,BC_82,07FD,-120.6196,55.53689
+233,Gas,Gaz,Grizzly North,Grizzly North,British Columbia,Colombie-Britannique,54.8938,-120.6594,BC_144,07FB,-120.6594,54.8938
+234,"Gas, oil","Gaz, pétrole",Oak,Oak,British Columbia,Colombie-Britannique,56.5,-120.729,BC_98,07FC,-120.729,56.5
+235,Gas,Gaz,Ekwan,Ekwan,British Columbia,Colombie-Britannique,58.6521,-120.7781,BC_76,07OA,-120.7781,58.6521
+236,Gas,Gaz,Helmet,Helmet,British Columbia,Colombie-Britannique,59.417,-120.817,BC_173,10DA,-120.817,59.417
+237,Gas,Gaz,Kahntah River,Kahntah River,British Columbia,Colombie-Britannique,58.35,-120.883,BC_74,10CA,-120.883,58.35
+238,Gas,Gaz,Groundbirch,Groundbirch,British Columbia,Colombie-Britannique,55.96183,-121.01467,BC_168,07FB,-121.01467,55.96183
+239,"Oil, gas","Pétrole, gaz",Stoddart West,Stoddart West,British Columbia,Colombie-Britannique,56.467,-121.025,BC_98,07FC,-121.025,56.467
+240,"Gas, sulphur","Gaz, soufre",Murray,Murray,British Columbia,Colombie-Britannique,54.957,-121.087,BC_144,07FB,-121.087,54.957
+241,"Gas, oil","Gaz, pétrole",Buick Creek,Buick Creek,British Columbia,Colombie-Britannique,56.738,-121.155,BC_98,07FC,-121.155,56.738
+242,"Oil, gas","Pétrole, gaz",Wargen,Wargen,British Columbia,Colombie-Britannique,57.2358,-121.2194,BC_218,07FC,-121.2194,57.2358
+243,Gas,Gaz,Bullmoose,Bullmoose,British Columbia,Colombie-Britannique,55.13465,-121.25005,BC_144,07FB,-121.25005,55.13465
+244,Gas,Gaz,Monias,Monias,British Columbia,Colombie-Britannique,56.078,-121.323,BC_235,07FA,-121.323,56.078
+245,Gas,Gaz,Sierra,Sierra,British Columbia,Colombie-Britannique,58.814,-121.348,BC_76,07OA,-121.348,58.814
+246,Gas,Gaz,Elleh,Elleh,British Columbia,Colombie-Britannique,58.25,-121.5,BC_52,10CA,-121.5,58.25
+247,Gas,Gaz,Fireweed,Fireweed,British Columbia,Colombie-Britannique,56.865,-121.6281,BC_98,07FC,-121.6281,56.865
+248,"Gas, sulphur","Gaz, soufre",Sukunka,Sukunka,British Columbia,Colombie-Britannique,55.284,-121.654,BC_168,07FB,-121.654,55.284
+249,"Oil, gas","Pétrole, gaz",Inga,Inga,British Columbia,Colombie-Britannique,56.662,-121.68,BC_98,07FA,-121.68,56.662
+250,Gas,Gaz,Nig Creek,Nig Creek,British Columbia,Colombie-Britannique,57.062,-121.731,BC_98,07FC,-121.731,57.062
+251,Gas,Gaz,Gunnell Creek,Gunnell Creek,British Columbia,Colombie-Britannique,58.8333,-121.8,BC_174,10CE,-121.8,58.8333
+252,"Oil, gas","Pétrole, gaz",Blueberry,Blueberry,British Columbia,Colombie-Britannique,56.824,-121.956,BC_105,07FA,-121.956,56.824
+253,Gas,Gaz,Brazion,Brazion,British Columbia,Colombie-Britannique,55.377,-121.978,BC_168,07FB,-121.978,55.377
+254,Gas,Gaz,Petitot River,Petitot River,British Columbia,Colombie-Britannique,59.8279465,-122.0214185,BC_118,10DA,-122.0214185,59.8279465
+255,Gas,Gaz,Laprise Creek,Laprise Creek,British Columbia,Colombie-Britannique,57.361,-122.053,BC_239,10CB,-122.053,57.361
+256,Gas,Gaz,Tommy Lakes,Tommy Lakes,British Columbia,Colombie-Britannique,57.767,-122.106,BC_239,10CB,-122.106,57.767
+257,Gas,Gaz,Northern Montney,Northern Montney,British Columbia,Colombie-Britannique,56.57423,-122.11467,BC_105,07FA,-122.11467,56.57423
+258,Gas,Gaz,Jedney,Jedney,British Columbia,Colombie-Britannique,57.248,-122.229,BC_218,07FC,-122.229,57.248
+259,Gas,Gaz,Town,Town,British Columbia,Colombie-Britannique,57.00318,-122.23235,BC_105,07FA,-122.23235,57.00318
+260,Gas,Gaz,Klua,Klua,British Columbia,Colombie-Britannique,58.57321,-122.23908,BC_223,10CC,-122.23908,58.57321
+261,Gas,Gaz,Beg,Beg,British Columbia,Colombie-Britannique,57.175,-122.335,BC_218,07FC,-122.335,57.175
+262,Gas,Gaz,Graham,Graham,British Columbia,Colombie-Britannique,56.5354,-122.3469,BC_224,07FA,-122.3469,56.5354
+263,Gas,Gaz,Horn River,Horn River,British Columbia,Colombie-Britannique,59.19122,-122.36486,BC_134,10CF,-122.36486,59.19122
+264,Gas,Gaz,Federal,Federal,British Columbia,Colombie-Britannique,56.3521,-122.5031,BC_105,07FA,-122.5031,56.3521
+265,Gas,Gaz,Green Creek,Green Creek,British Columbia,Colombie-Britannique,57.5438,-122.5719,BC_239,10CB,-122.5719,57.5438
+266,Gas,Gaz,Clarke Lake,Clarke Lake,British Columbia,Colombie-Britannique,58.705,-122.711,BC_134,10CF,-122.711,58.705
+267,Gas,Gaz,Maxhamish Lake,Maxhamish Lake,British Columbia,Colombie-Britannique,59.71444,-123.18145,BC_118,10DA,-123.18145,59.71444
+268,Gas,Gaz,Kotaneelee,Kotaneelee,Yukon,Yukon,60.12,-124.08,NA,10DB,-124.08,60.12
+269,"Oil, gas","Pétrole, gaz",Cameron Hills,Cameron Hills,Northwest Territories,Territoires de Nord-Ouest,60.0831,-117.9911,NA,10DA,-117.9911,60.0831
+270,Gas,Gaz,Fort Liard,Fort Liard,Northwest Territories,Territoires de Nord-Ouest,60.0833,-123.3667,NA,10DA,-123.3667,60.0833
+271,"Gas, sulphur","Gaz, soufre",Liard,Liard,Northwest Territories,Territoires de Nord-Ouest,60.4833,-123.5833,NA,10ED,-123.5833,60.4833
+272,Gas,Gaz,Southeast Fort Liard,Southeast Fort Liard,Northwest Territories,Territoires de Nord-Ouest,60.4833,-123.5833,NA,10ED,-123.5833,60.4833
+273,"Gas, sulphur","Gaz, soufre",North Liard,North Liard,Northwest Territories,Territoires de Nord-Ouest,60.6,-123.6833,NA,10ED,-123.6833,60.6
+274,Oil,Pétrole,Norman Wells,Norman Wells,Northwest Territories,Territoires de Nord-Ouest,65.28,-126.88,NA,10KA,-126.88,65.28
+275,Gas,Gaz,Ikhil,Ikhil,Northwest Territories,Territoires de Nord-Ouest,68.75,-134.15,NA,10LC,-134.15,68.75

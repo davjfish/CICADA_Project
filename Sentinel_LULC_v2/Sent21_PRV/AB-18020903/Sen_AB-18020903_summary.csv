@@ -1,0 +1,9 @@
+value,count,prop,class,col
+2,510420,74.73,Trees,darkgreen
+5,91352,13.38,Crops,yellow
+11,69925,10.24,Rangeland,green
+1,10880,1.59,Water,blue
+7,369,0.05,Built Area,red
+4,35,0.01,Flooded vegetation,lightgreen
+8,7,0,Bare ground,burlywood
+9,3,0,Snow/Ice,black
