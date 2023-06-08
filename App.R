@@ -27,7 +27,7 @@ ui <- navbarPage(
 ############
   useShinyjs(),
   theme = shinytheme("simplex"),
-  title = "CICADA (CumulatIve effeCts spAtial DAta tool)",
+  title = "CICADA (CumulatIve effeCts spAtial DAta tool) version 1.0",
 ############
 
 #About tab
@@ -46,12 +46,17 @@ ui <- navbarPage(
       provided by DFO's Competitive Science Research Fund. For inquiries related to this project please contact Cindy Chu (cindy.chu@dfo-mpo.gc.ca). 
       For questions or issues related to this web app please contact Cody Dey (cody.dey@dfo-mpo.gc.ca)"
     ),
+    br(),
     p(
       "This tool relies on data shared by many government and 
       non-government organizations. Full details on data sourced 
       for this project, and on using the tool",
-      tags$a(" are provided in the user manual", href="user_manual.pdf")
-    )
+      tags$a(" are provided in the user manual", href="user_manual.pdf", target = "_blank")
+    ), br(),
+    
+    p("DISCLAIMER: This software package is provided as is without any warranty of any kind. The developers of this software cannot guarantee the completeness, accuracy, or reliability of the data presented within the application. Data may be missing or incomplete, and users should exercise professional judgement when using this software. 
+    Furthermore, the entire risk related to the use or performance of the software lies with the user. In no event shall the developers be liable for any damage whatsoever arising from the use of or inability to use this software, even if the developers have been advised of the possibility of such damages. 
+    By using this software, you acknowledge that you have read and understood this disclaimer and agree to use the software at your own risk.")
     
   ),
 ############ 
