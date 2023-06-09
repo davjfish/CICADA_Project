@@ -4,7 +4,6 @@
 library(shiny)
 library(tidyverse)
 library(data.table)
-#library(shinyWidgets)
 library(shinythemes)
 require(shinycssloaders)
 library(DT)
@@ -12,13 +11,10 @@ require(leaflet)
 require(sf)
 require(readxl)
 require(htmltools) #for pop up labels
-require(raster)
 require(shinyjs) #for enable / disable of buttons
-require(viridisLite)
-require(lwgeom) #for watershed area
+require(viridisLite) #colors for GHM raster
 require(stars) #for rasters
-require(starsExtra)
-require(leafem) #for plotting rasters
+require(leafem) #for plotting rasters from stars package
 ############
 
 ui <- navbarPage(
@@ -119,10 +115,7 @@ tabPanel(
   br(),# br(),
   #
   textOutput("common_species"),
-  br(),
-  # textOutput("humtext"),  
-  # br(),
-  # downloadButton("downloadTable5", "Download land cover summary")
+  br()
 ),
 ##########
 
@@ -156,9 +149,6 @@ tabPanel(
   tabPanel(
     "Water quality",
     p("Water temperature (°C), pH, chloride (mg/L), dissolved oxygen (mg/L), turbidity (NTU), conductivity (uS/cm), nitrates (mg/L), total phosphorus (ug/L), total selenium (ug/L), dissolved selenium (ug/L) and total dissolved solids (mg/L) data are median values from each site across samples collected between 2015 and 2021"), 
-    # p(
-    #   "Water quality thresholds are based on existing guidelines for the protection of aquatic life and are further outlined in Dey et al. 2022. Preliminary assessment of the State of Fish and Fish Habitat in Fisheries and Oceans Canada's Ontario and Prairies Region. Canadian Science Advisory Secretariat Research Document"
-    # ),
     fluidRow(column(12, DTOutput("table3"))),
     downloadButton("downloadTable3", "Download water quality data")
   ),
@@ -333,13 +323,6 @@ server <- function(input, output, session) {
        pageLength = 15,
        dom = 't')
    )
-  
-  #   feature = c()
-  #   
-  #   
-  #   flag = c('<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/200px-Flag_of_the_People%27s_Republic_of_China.svg.png" height="52"></img>'
-  #   )
-  # )
   
   ############
   
