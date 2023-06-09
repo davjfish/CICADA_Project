@@ -536,8 +536,8 @@ server <- function(input, output, session) {
     
     #focal NHN for fish species list
     if(searchstring != "NHN-TWS"){
-      query = paste0("SELECT * FROM CE_WSHDs_WGS84 WHERE Dataset = 'NHN-TWS'")
-      watersheds <- read_sf("Watershed_Layers/CE_WSHDs_WGS84.gpkg", query = query)
+      query = paste0("SELECT * FROM CE_WSHDs_WGS84_v2 WHERE Dataset = 'NHN-TWS'")
+      watersheds <- read_sf("Watershed_Layers/CE_WSHDs_WGS84_v2.gpkg", query = query)
       focal_NHN <-  watersheds[st_contains(watersheds, focal_site) %>% lengths() > 0, ]
       focal_NHN_ID = st_drop_geometry(focal_NHN)$NHN_TWS_ID[1]
     }
