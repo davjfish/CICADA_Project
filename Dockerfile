@@ -5,7 +5,8 @@ WORKDIR /srv/shiny-server/cicada
 
 RUN apt-get update && apt-get install -y
 
-RUN Rscript -e 'remotes::install_version("abind", upgrade = "never", version = "1.4-5")'
+RUN Rscript -e 'install.packages("remotes")'
+RUN Rscript -e 'remotes::install_version("abind", upgrade = "never", version = "1.4.5")'
 RUN Rscript -e 'remotes::install_version("data.table", upgrade = "never", version = "1.17.0")'
 RUN Rscript -e 'remotes::install_version("DT", upgrade = "never", version = "0.29")'
 RUN Rscript -e 'remotes::install_version("htmltools", upgrade = "never", version = "0.5.8.1")'
