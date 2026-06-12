@@ -1,0 +1,30 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DataType">Generic</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>Band_1</Description>
+    <Histograms>
+      <HistItem>
+        <HistMin>0</HistMin>
+        <HistMax>0.8799999952316284</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>8591|787|1122|1160|1119|765|1030|698|783|492|509|664|532|600|401|580|423|416|50|55|78|106|284|333|506|558|768|645|1105|783|868|996|678|850|706|944|546|838|525|764|469|484|777|551|722|480|616|455|492|339|315|474|297|374|306|353|214|278|247|292|230|131|278|142|173|108|233|143|145|152|124|102|97|79|92|103|87|100|106|122|93|69|123|88|92|81|102|48|77|63|91|91|62|47|37|94|82|90|32|71|47|81|75|39|55|77|75|44|98|44|41|39|44|66|47|61|28|44|38|82|49|39|21|26|37|38|84|34|59|36|28|27|53|47|32|68|36|47|41|19|37|46|20|26|28|22|57|23|22|10|12|30|30|14|15|23|17|12|14|18|24|29|12|3|20|13|23|7|22|21|10|15|7|5|4|23|9|19|12|22|0|23|2|10|13|3|12|11|11|14|3|2|7|3|3|6|8|12|4|10|6|5|5|9|8|2|2|14|4|2|6|11|16|2|11|5|6|2|2|5|2|2|5|1|1|2|3|3|10|1|1|0|0|33|2|4|5|4|1|1|2|2|2|1|2|1|0|1|0|1|1|1|2|2|0|1</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="BandName">Band_1</MDI>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_COVARIANCES">0.01588485119254555</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.87999999523163</MDI>
+      <MDI key="STATISTICS_MEAN">0.1165910439961</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">0.12603511888575</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
