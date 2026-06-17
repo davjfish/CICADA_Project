@@ -329,47 +329,47 @@ server <- function(input, output, session) {
   #Read in csv data layers
   ###########
   
-  major_projects = fread("Major projects inventory/major_projects_line_wshd_joins.csv") 
+  major_projects = fread("data/Major projects inventory/major_projects_line_wshd_joins.csv")
   
-  crossings = fread("Road crossings/NHNTWS_NRF_Sum.csv")
+  crossings = fread("data/Road crossings/NHNTWS_NRF_Sum.csv")
   
-  pa_lookup = fread("Protected_areas/CPCAD_WSHD_join.csv")
+  pa_lookup = fread("data/Protected_areas/CPCAD_WSHD_join.csv")
   
-  NHN_SARA = fread("Critical_habitat/DFO_SARA_CritHab_22/WSHD_Joins/SARA_NHN_Join.csv")
-  PRV_SARA = fread("Critical_habitat/DFO_SARA_CritHab_22/WSHD_Joins/SARA_PRV_Join.csv")
+  NHN_SARA = fread("data/Critical_habitat/DFO_SARA_CritHab_22/WSHD_Joins/SARA_NHN_Join.csv")
+  PRV_SARA = fread("data/Critical_habitat/DFO_SARA_CritHab_22/WSHD_Joins/SARA_PRV_Join.csv")
   
-  NHN_splist <- fread("Fish data/Watershed_species_lists_v2.csv")
+  NHN_splist <- fread("data/Fish data/Watershed_species_lists_v2.csv")
   
-  salmonCUs <-fread("Fish data/Salmon Conservation Units/Salmon_CU_wshd_Join.csv")
+  salmonCUs <-fread("data/Fish data/Salmon Conservation Units/Salmon_CU_wshd_Join.csv")
   
-  wastewater = fread("Canada Wastewater sites/wastewater_merged.csv", encoding = 'Latin-1')
+  wastewater = fread("data/Canada Wastewater sites/wastewater_merged.csv", encoding = 'Latin-1')
   
-  contaminated_sites <- fread("Federal Contaminated Sites/fed_cont_sites_inv.csv", encoding = 'Latin-1')
+  contaminated_sites <- fread("data/Federal Contaminated Sites/fed_cont_sites_inv.csv", encoding = 'Latin-1')
   contaminated_sites = contaminated_sites %>% mutate(CurrentSit = ifelse(CurrentSit == "A", "Active",
                                                                          ifelse(CurrentSit == "C", "Closed", "Suspected")))
-  oilgas <- fread("Mining Oil and Gas/900A_72nd_OilAndGas.csv", encoding = 'Latin-1')
+  oilgas <- fread("data/Mining Oil and Gas/900A_72nd_OilAndGas.csv", encoding = 'Latin-1')
   
-  metalworks <- fread("Mining Oil and Gas/900A_72nd_MetalWorks.csv", encoding = 'Latin-1')
+  metalworks <- fread("data/Mining Oil and Gas/900A_72nd_MetalWorks.csv", encoding = 'Latin-1')
   
-  mines <- fread("Mining Oil and Gas/900A_72nd_ProducingMines.csv", encoding = 'Latin-1')
+  mines <- fread("data/Mining Oil and Gas/900A_72nd_ProducingMines.csv", encoding = 'Latin-1')
   
-  fish_data <- fread("Fish data/Nat_Fish_Recent_01-12-2023.csv")
+  fish_data <- fread("data/Fish data/Nat_Fish_Recent_01-12-2023.csv")
   
-  wq_sites<-fread("Water quality data/WQI_data.csv")
-  wq_data<-fread("Water quality data/WQ_data_for_tab.csv")
+  wq_sites<-fread("data/Water quality data/WQI_data.csv")
+  wq_data<-fread("data/Water quality data/WQ_data_for_tab.csv")
   
-  dams <- fread("Can_Aquatic_Barrier_database_WSHD/cabddams__WSHD.csv")
+  dams <- fread("data/Can_Aquatic_Barrier_database_WSHD/cabddams__WSHD.csv")
   
-  wfs <- fread("Can_Aquatic_Barrier_database_WSHD/cabd_waterfalls_wshd.csv")
+  wfs <- fread("data/Can_Aquatic_Barrier_database_WSHD/cabd_waterfalls_wshd.csv")
   
-  fishways <- fread("Can_Aquatic_Barrier_database_WSHD/cabdfishways_wshd.csv")
+  fishways <- fread("data/Can_Aquatic_Barrier_database_WSHD/cabdfishways_wshd.csv")
   
-  npri <- fread("National Pollutant Release Inventory/NPRI_Sites_V2.csv", encoding = 'Latin-1')
-  npri_release <-fread("National Pollutant Release Inventory/NPRI_substance_list_2022.csv", encoding = 'Latin-1')
+  npri <- fread("data/National Pollutant Release Inventory/NPRI_Sites_V2.csv", encoding = 'Latin-1')
+  npri_release <-fread("data/National Pollutant Release Inventory/NPRI_substance_list_2022.csv", encoding = 'Latin-1')
   
-  fwbgz = read_csv("FreshwaterBiogeographicZone/FW_BIO_ZONES_WSHD_Join.csv")
+  fwbgz = read_csv("data/FreshwaterBiogeographicZone/FW_BIO_ZONES_WSHD_Join.csv")
   
-  feow = fread("CDN_FWecoregions/FW_ECO_REG_WSHD_Join.csv")
+  feow = fread("data/CDN_FWecoregions/FW_ECO_REG_WSHD_Join.csv")
   feow_names = tribble(~Name, ~FEOW_ID,
                        "Upper Yukon", 102,
                        "Alaska & Canada Pacific Coastal", 103,
@@ -430,10 +430,10 @@ server <- function(input, output, session) {
       )
   })
   
-  wshd_cvr = read_sf("Watershed_Layers/CE_WSHDs_cvr_WGS84_v3.gpkg")
+  wshd_cvr = read_sf("data/Watershed_Layers/CE_WSHDs_cvr_WGS84_v3.gpkg")
   possible_watersheds = c("AB Hydrological Unit Code 8", "BC Freshwater Atlas", "NHN Tertiary Watersheds", "ON Quaternary Watersheds")
   
-  can_cvr = read_sf("Watershed_Layers/simple_canada.gpkg")
+  can_cvr = read_sf("data/Watershed_Layers/simple_canada.gpkg")
   
   
   ############ 
@@ -529,7 +529,7 @@ server <- function(input, output, session) {
     } 
     
     query = paste0("SELECT * FROM CE_WSHDs_WGS84_v2 WHERE Dataset = ", "'",searchstring,"'")
-    watersheds <- read_sf("Watershed_Layers/CE_WSHDs_WGS84_v2.gpkg", query = query)
+    watersheds <- read_sf("data/Watershed_Layers/CE_WSHDs_WGS84_v2.gpkg", query = query)
     focal_watershed <- watersheds[st_contains(watersheds, focal_site) %>% lengths() > 0, ]
     focal_watershed_ID = focal_watershed %>% dplyr::select(PRV_WSHD_I, NHN_TWS_ID) %>% st_set_geometry(NULL) %>% as_vector() 
     focal_watershed_ID = focal_watershed_ID[!is.na(focal_watershed_ID)]
@@ -537,7 +537,7 @@ server <- function(input, output, session) {
     #focal NHN for fish species list
     if(searchstring != "NHN-TWS"){
       query = paste0("SELECT * FROM CE_WSHDs_WGS84_v2 WHERE Dataset = 'NHN-TWS'")
-      watersheds <- read_sf("Watershed_Layers/CE_WSHDs_WGS84_v2.gpkg", query = query)
+      watersheds <- read_sf("data/Watershed_Layers/CE_WSHDs_WGS84_v2.gpkg", query = query)
       focal_NHN <-  watersheds[st_contains(watersheds, focal_site) %>% lengths() > 0, ]
       focal_NHN_ID = st_drop_geometry(focal_NHN)$NHN_TWS_ID[1]
     }
@@ -558,13 +558,13 @@ server <- function(input, output, session) {
       keeps <- major_projects %>% filter(NHN_TWS_ID == focal_watershed_ID)
       
       query = paste0("SELECT * FROM major_projects_inventory_point WHERE NHN_TWS_ID = ", "'",focal_watershed_ID,"'")
-      mp_points_plot <- read_sf("Major projects inventory/major_projects_inventory_point.gpkg", query = query)
+      mp_points_plot <- read_sf("data/Major projects inventory/major_projects_inventory_point.gpkg", query = query)
       
     } else {
       keeps <- major_projects %>% filter(PRV_WSHD_I == focal_watershed_ID)
       
       query = paste0("SELECT * FROM major_projects_inventory_point WHERE PRV_WSHD_I = ", "'",focal_watershed_ID,"'")
-      mp_points_plot <- read_sf("Major projects inventory/major_projects_inventory_point.gpkg", query = query)
+      mp_points_plot <- read_sf("data/Major projects inventory/major_projects_inventory_point.gpkg", query = query)
     }
     
     #process the point data
@@ -583,7 +583,7 @@ server <- function(input, output, session) {
     linequery = paste0("SELECT * FROM major_projects_inventory_line WHERE id IN ", "('", 
                        ids,
                        "')")
-    mp_lines_plot <- read_sf("Major projects inventory/major_projects_inventory_line.gpkg", query = linequery)
+    mp_lines_plot <- read_sf("data/Major projects inventory/major_projects_inventory_line.gpkg", query = linequery)
     
     mp_lines_clip = mp_lines_plot %>% st_drop_geometry()    
     mp_lines_labels <- lapply(seq(nrow(mp_lines_clip)), function(i) {
@@ -644,7 +644,7 @@ server <- function(input, output, session) {
     query = paste0("SELECT * FROM CPCAD_Dec_2021_WGS84 WHERE CE_ID IN ", "('", 
                    paste(unique(keeps$CE_ID), collapse="', '"),
                    "')")
-    pa_plot <- read_sf("Protected_areas/CPCAD_Dec_2021_WGS84.gpkg", query =  query)
+    pa_plot <- read_sf("data/Protected_areas/CPCAD_Dec_2021_WGS84.gpkg", query =  query)
     
     pa_clip <- st_drop_geometry(pa_plot)
     
@@ -866,7 +866,7 @@ server <- function(input, output, session) {
     } 
     
     query = paste0("SELECT * FROM DFO_SARA_CritHab_22_WGS84 WHERE SARA_ID IN ", "('", paste(as_vector(keeps$SARA_ID), collapse="', '"), "')")
-    crithab_plot <- read_sf("Critical_habitat/DFO_SARA_CritHab_22/DFO_SARA_CritHab_22_WGS84.gpkg", query =  query)
+    crithab_plot <- read_sf("data/Critical_habitat/DFO_SARA_CritHab_22/DFO_SARA_CritHab_22_WGS84.gpkg", query =  query)
     
     crithab_clip <- st_drop_geometry(crithab_plot)
     

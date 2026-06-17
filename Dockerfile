@@ -1,34 +1,34 @@
-FROM rocker/geospatial:latest
+FROM rocker/geospatial:4.4.3
 
-COPY . /srv/shiny-server/cicada
 WORKDIR /srv/shiny-server/cicada
 
-RUN apt-get update && apt-get install -y
+# 2. Install system dependencies required by R packages (e.g., libcurl, openssl)
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN Rscript -e 'install.packages("remotes")'
-RUN Rscript -e 'remotes::install_version("abind", upgrade = "never", version = "1.4.5")'
-RUN Rscript -e 'remotes::install_version("data.table", upgrade = "never", version = "1.17.0")'
-RUN Rscript -e 'remotes::install_version("DT", upgrade = "never", version = "0.29")'
-RUN Rscript -e 'remotes::install_version("htmltools", upgrade = "never", version = "0.5.8.1")'
-RUN Rscript -e 'remotes::install_version("leafem", upgrade = "never", version = "0.2.3")'
-RUN Rscript -e 'remotes::install_version("leaflet", upgrade = "never", version = "2.2.0")'
-RUN Rscript -e 'remotes::install_version("readxl", upgrade = "never", version = "1.4.3")'
-RUN Rscript -e 'remotes::install_version("sf", upgrade = "never", version = "1.0-12")'
-RUN Rscript -e 'remotes::install_version("shiny", upgrade = "never", version = "1.7.5")'
-RUN Rscript -e 'remotes::install_version("shinycssloaders", upgrade = "never", version = "1.0.0")'
-RUN Rscript -e 'remotes::install_version("shinyjs", upgrade = "never", version = "2.1.0")'
-RUN Rscript -e 'remotes::install_version("shinythemes", upgrade = "never", version = "1.2.0")'
-RUN Rscript -e 'remotes::install_version("stars", upgrade = "never", version = "0.6-1")'
-RUN Rscript -e 'remotes::install_version("stringr", upgrade = "never", version = "1.5.0")'
-RUN Rscript -e 'remotes::install_version("tidyverse", upgrade = "never", version = "2.0.0")'
-RUN Rscript -e 'remotes::install_version("viridisLite", upgrade = "never", version = "0.4.2")'
+RUN Rscript -e 'install.packages("renv")'
 
+# 4. Copy ONLY renv configuration files first to leverage Docker cache
+COPY renv.lock renv.lock
+COPY renv/activate.R renv/activate.R
+COPY renv/settings.json renv/settings.json
 
+# 5. Change renv cache location to a local directory inside the container
+ENV RENV_PATHS_CACHE=/srv/shiny-server/cicada/renv/cache
 
 # prep data directory; when deploy in k8s this folder will be backended to a NAS containing all fst files
 RUN mkdir /data
 RUN chmod 0777 /data
 RUN ln -s /data /srv/shiny-server/cicada/data
+
+# 6. Restore the R environment (installs packages from renv.lock)
+RUN R -e "renv::restore()"
+
+# 7. Copy the actual Shiny app source code (changes frequently)
+COPY . .
 
 # expose container port 3838
 EXPOSE 3838
